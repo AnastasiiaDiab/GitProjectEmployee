@@ -8,6 +8,7 @@ public abstract class Employee {
     private int age;
     private LocalDate DOB;
     private String jobTitle, employeeId;
+    private double salary;
 
     public Employee(String name, LocalDate DOB, String jobTitle, String employeeId, double salary) {
         setName(name);
@@ -66,7 +67,7 @@ public abstract class Employee {
         this.salary = salary;
     }
 
-    private double salary;
+   
 
     public abstract void work();
 }
