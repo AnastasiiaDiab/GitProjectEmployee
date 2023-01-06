@@ -22,7 +22,7 @@ public class TestObjects {
 
             System.out.println("Alex you are: " + employee1.getAge() + " years old, finally you are SDET and you make a lot of money, like : $" + employee1.getSalary());
 
-        //====================================Alex object code eds here========================
+        //====================================Alex object code ends here========================
 
     }
 }
