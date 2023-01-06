@@ -2,6 +2,8 @@ package Employees;
 
 import java.time.LocalDate;
 
+import java.time.LocalDate;
+
 public class Magician extends Employee{
     public Magician(String name, int DOB, String jobTitle, String employeeId, double salary) {
         super(name, LocalDate.ofEpochDay(DOB), jobTitle, employeeId, salary);
@@ -22,3 +24,4 @@ public class Magician extends Employee{
 
     }
 }
+
