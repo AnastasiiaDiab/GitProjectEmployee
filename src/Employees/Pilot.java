@@ -20,9 +20,9 @@ public class Pilot extends Employee{
 
     @Override
     public String toString() {
-        return "Pilot{" +
+        return "Pilot{ " +
                 "name = " + getName() +
-                "age = " + getAge() + "Job title = " + getJobTitle() +"}";
+                ", age = " + getAge() + ", Job title = " + getJobTitle() +"}";
     }
 }
 
