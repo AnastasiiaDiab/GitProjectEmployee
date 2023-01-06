@@ -67,7 +67,16 @@ public abstract class Employee {
         this.salary = salary;
     }
 
-   
 
     public abstract void work();
+
+    @Override
+    public String toString() {
+        return getClass().getSimpleName() +"{" +
+                "name='" + name + '\'' +
+                ", jobTitle='" + jobTitle + '\'' +
+                ", employeeId='" + employeeId + '\'' +
+                ", salary=" + salary +
+                '}';
+    }
 }
