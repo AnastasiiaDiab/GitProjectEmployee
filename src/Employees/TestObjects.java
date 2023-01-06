@@ -24,5 +24,13 @@ public class TestObjects {
 
         //====================================Alex object code ends here========================
 
+        Employee emp2 = new Magician("Albus Dambldore",1745, "Head of theMagic School",
+                "Phoenix777", 999999);
+
+        emp2.work();
+        ((Magician)emp2).makeMagic();
+
+        System.out.println(emp2);
+
     }
 }
