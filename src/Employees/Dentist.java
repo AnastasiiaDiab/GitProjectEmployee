@@ -19,4 +19,11 @@ public class Dentist extends Employee implements MedicalDegree{
     public void hasMedicalDegree() {
         System.out.println(getJobTitle() + " " + getName() + " is graduated from University of Maryland School of Dentistry");
     }
+
+    @Override
+    public String toString() {
+        return "Dentist{"+ getName()+
+                "job title =" + getJobTitle()+
+                "salary = " + getSalary()+ "}";
+    }
 }

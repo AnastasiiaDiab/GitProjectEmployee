@@ -28,4 +28,11 @@ public class Astrologer extends Employee implements PartTime, failedToPayTaxes{
     public void failedToPayTaxes() {
         System.out.println(getJobTitle() + " " + getName() + ", IRS is after you!");
     }
+
+    @Override
+    public String toString() {
+        return "Astrologer{" + getName()+
+                "job title =" + getJobTitle()+
+                "salary = " + getSalary()+ "}";
+    }
 }
