@@ -9,10 +9,6 @@ public class Engineer extends Employee{
 
     @Override
     public void work() {
-        System.out.println(getName() + " is working");
-    }
 
-    public void build(){
-        System.out.println(getName() + " is building cooling towers");
     }
 }
